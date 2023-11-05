@@ -1,0 +1,18 @@
+{
+  "name": "hellnode",
+  "version": "1.0.0",
+  "description": "npm install --save express body-parser express fs ejs\r --save옵션을 주어 package.json에 종속 라이브러리가 dependency항목 밑에 추가되도록 합니다.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security"
+  }
+}
